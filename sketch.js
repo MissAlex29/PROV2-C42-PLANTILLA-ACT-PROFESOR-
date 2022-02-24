@@ -42,6 +42,9 @@ function draw() {
   if (gameState === 1) {
     game.play();
   }
+  if (gameState === 2) {
+    game.showLeaderboard();
+  }
 }
 
 //Ajusta altura y ancho de la ventana automáticamente 
